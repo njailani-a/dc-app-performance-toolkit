@@ -15,9 +15,9 @@ def app_specific_action(webdriver, datasets):
     project_key = rnd_repo[1]
     repo_slug = rnd_repo[0]
 
-    To run action as specific user uncomment code bellow.
-    NOTE: If app_specific_action is running as specific user, make sure that app_specific_action is running
-    just before test_2_selenium_logout action
+#     To run action as specific user uncomment code bellow.
+#     NOTE: If app_specific_action is running as specific user, make sure that app_specific_action is running
+#     just before test_2_selenium_logout action
 
     @print_timing("selenium_app_specific_user_login")
     def measure():
